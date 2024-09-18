@@ -1,0 +1,15 @@
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1 1 auto;
+	background-color: #232931;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

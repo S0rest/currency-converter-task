@@ -1,0 +1,31 @@
+.currencyError{
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMessage {
+  padding: 20px 30px;
+  width: 370px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image{
+    img {
+      height: 50px;
+    }
+  }
+}
+
+.errorText {
+  color: #cc0033;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 20px;
+  text-shadow: 1px 1px rgba(250,250,250,.3);
+  margin: 0 0 0 25px;
+}

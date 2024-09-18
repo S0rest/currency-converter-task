@@ -1,0 +1,44 @@
+@use '../../../../styles/variables.scss' as vars;
+
+.header {
+	background-color: #6162a3;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__logo {
+		margin: 0 0 0 25px;
+
+		@media (max-width: vars.$md3) {
+			margin: 0 25px;
+		}
+
+		@media (max-width: vars.$md4) {
+			margin: 0 10px;
+		}
+
+		img {
+			height: 75px;
+			width: auto;
+		}
+	}
+
+	&__text {
+		margin: 0 25px;
+
+		p {
+			font-size: 40px;
+		}
+
+		@media (max-width: vars.$md3) {
+			display: none;
+		}
+	}
+}
